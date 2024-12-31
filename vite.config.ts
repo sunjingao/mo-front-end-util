@@ -9,7 +9,7 @@ import { visualizer } from 'rollup-plugin-visualizer';
 
 const DEV_CONFIG = {
   config: {
-    base: './',
+    base: '',
     server: {
       host: '0.0.0.0',
       port: 6699,
