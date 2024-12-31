@@ -38,7 +38,7 @@ const DEV_CONFIG = {
 
 const DOCS_CONFIG = {
   config: {
-    base: './',
+    base: '/mo-front-end-util/dist/index.html',
     build: {
       outDir: `dist`,
     },
