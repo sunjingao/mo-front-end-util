@@ -69,7 +69,7 @@ export const REDIRECT = {
 };
 
 const router = createRouter({
-  history: createWebHistory('/mo-front-end-util'),
+  history: createWebHistory('/mo-front-end-util/dist'),
   routes: [
     ...Object.values(ROUTERS).reduce((pre, cur) => {
       pre.push(...cur.children);
