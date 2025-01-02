@@ -1,1 +1,0 @@
-/* empty css                                                            */import{o,c as t,a as e}from"./index-CGxSFpIf.js";const s={class:"marked-body"},_=e("h2",{id:"开发说明"},"开发说明",-1),c=e("h3",{id:"说明"},"说明",-1),n=e("ul",null,[e("li",null,"基于摩捷智行日常工作中整理出的公共内容，方便各项目统一使用")],-1),a=[_,c,n],m={__name:"index",setup(d){return(i,r)=>(o(),t("div",s,a))}};export{m as default};
