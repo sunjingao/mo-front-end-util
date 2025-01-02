@@ -1,5 +1,5 @@
 import NProgress from 'nprogress';
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 export const ROUTERS = [
   {
@@ -69,7 +69,7 @@ export const REDIRECT = {
 };
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes: [
     ...Object.values(ROUTERS).reduce((pre, cur) => {
       pre.push(...cur.children);
