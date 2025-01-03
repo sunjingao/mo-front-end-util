@@ -40,7 +40,7 @@ const DOCS_CONFIG = {
   config: {
     base: './',
     build: {
-      outDir: `dist`,
+      outDir: `dist-doc`,
     },
   },
   plugins: [
@@ -80,7 +80,7 @@ const PACKAGES_CONFIG = {
         name: 'mo-front-end-util',
       },
       sourcemap: true,
-      outDir: 'dist-npm'
+      outDir: 'dist'
     },
   },
   plugins: [
